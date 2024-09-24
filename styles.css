@@ -37,6 +37,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 main{
     text-align: center;
+    padding-bottom: 80px;
 }
 .AI-prompt{
     text-align: center;
@@ -52,7 +53,7 @@ h2{
 
 }
 .button-yes{
-    display: block;
+    display: inline;
     border-radius: 80p;
     width:fit-content ;
     font-size: x-large;
@@ -62,9 +63,34 @@ h2{
 }
 .instructions {
     color: black;
-    font-size: large;
+    font-size: xx-large;
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: bolder;
 }
+ul{
+    list-style-type: square;
+    margin-bottom: 40px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+select{  background-color: darkgrey;
+          color: black;
+          font-style: italic;
+          scroll-behavior: smooth;
+          margin-top: 50px;
+          
+
+}
+footer{
+       text-align: center;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: large;
+}
+  
+a{
+    color: palevioletred;
+}
+
 
 
